@@ -1,0 +1,10 @@
+com\cipek\protobuf\PerformanceTest.class
+com\cipek\protobuf\model\proto\Person$1.class
+com\cipek\protobuf\model\proto\PersonOuterClass.class
+com\cipek\json\JPerson$JPersonBuilder.class
+com\cipek\protobuf\model\proto\Person$Builder.class
+com\cipek\protobuf\model\proto\PersonOuterClass$1.class
+com\cipek\protobuf\model\proto\Person.class
+com\cipek\json\JPerson.class
+com\cipek\protobuf\model\proto\PersonOrBuilder.class
+com\cipek\protobuf\PersonDemo.class

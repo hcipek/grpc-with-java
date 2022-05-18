@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package common;
+
+option java_multiple_files=true;
+option java_package="com.cipek.protobuf.model.proto";
+
+message Car {
+  string constructor = 1;
+  string model = 3;
+  int32 year = 2;
+  int32 wheels = 4;
+  CarType carType = 5;
+}
+
+//Default value equal 0. If you not assign any values to CarType, it wil lbe assign with default value.
+enum CarType {
+  SEDAN = 0;
+  COUPE = 1;
+  SPORT = 2;
+}

@@ -1,9 +1,21 @@
 syntax = "proto3";
 
+import "common/address.proto";
+import "common/car.proto";
+
 option java_multiple_files=true;
 option java_package="com.cipek.protobuf.model.proto";
 
+/*
+  Multi line comments example
+  This is Person proto file
+  Contains two fields, name and age.
+ */
 message Person {
+  //Name field requires string, holds name of the person
   string name = 1;
+  //Age field requires int32, holds age of the person
   int32 age = 2;
+  common.Address address = 3;
+  repeated common.Car car = 4;
 }

@@ -76,7 +76,7 @@ service ServiceName {
 **Testing with Node Client**
 
 - This example is available under node-client folder of main project.
-- First, we installed this library. `npm install @grpc/proto-loader grpc`
+- First, create the folder and go inside, run `npm init -y` and after that install this library. `npm install @grpc/proto-loader grpc`
 - Then we have copied our service.proto file under this package.
 - The Java-Script file is responsible from the service call.(to test this, your server must be running)
 - After finished with .js file, we can run the `node fileName.js` command and see the results.

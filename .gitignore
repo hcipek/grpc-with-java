@@ -1,2 +1,3 @@
-/node-client/node_modules/...
 /node-client/node_modules/
+/unary-operations/target/
+/protobuf/target/

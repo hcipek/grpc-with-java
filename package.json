@@ -1,0 +1,20 @@
+{
+  "name": "premature-grpc-microservices-with-java",
+  "version": "1.0.0",
+  "description": "This repository is all about a playground to Learn gRPC communication with Microservices with are build in Java.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcipek/premature-grpc-microservices-with-java.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcipek/premature-grpc-microservices-with-java/issues"
+  },
+  "homepage": "https://github.com/hcipek/premature-grpc-microservices-with-java#readme"
+}

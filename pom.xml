@@ -8,6 +8,7 @@
     <version>1.0.0</version>
     <modules>
         <module>protobuf</module>
+        <module>unary-operations</module>
     </modules>
     <packaging>pom</packaging>
     <name>premature-grpc-microservices-with-java</name>

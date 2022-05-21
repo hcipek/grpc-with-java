@@ -7,16 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="unary-operations" />
         <module name="protobuf" />
+        <module name="grpc-operations" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="grpc-operations" target="1.8" />
       <module name="micro1" target="18" />
       <module name="micro2" target="18" />
       <module name="premature-grpc-microservices-with-java" target="1.5" />
       <module name="protobuf" target="18" />
-      <module name="unary-operations" target="1.8" />
+      <module name="server-stream-operations" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

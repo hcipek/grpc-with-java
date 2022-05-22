@@ -9,6 +9,7 @@
     <modules>
         <module>protobuf</module>
         <module>grpc-operations</module>
+        <module>snake-and-ladder-server</module>
     </modules>
     <packaging>pom</packaging>
     <name>premature-grpc-microservices-with-java</name>

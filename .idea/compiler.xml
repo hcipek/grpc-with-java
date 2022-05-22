@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="protobuf" />
+        <module name="snake-and-ladder-server" />
         <module name="grpc-operations" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,8 @@
       <module name="premature-grpc-microservices-with-java" target="1.5" />
       <module name="protobuf" target="18" />
       <module name="server-stream-operations" target="1.8" />
+      <module name="snake-and-ladder-server" target="18" />
+      <module name="snake-and-ladders-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

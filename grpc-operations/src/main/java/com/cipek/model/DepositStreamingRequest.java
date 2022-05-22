@@ -1,8 +1,8 @@
 package com.cipek.model;
 
 import com.cipek.repository.AccountRepository;
-import com.cipek.unary.model.proto.Balance;
-import com.cipek.unary.model.proto.DepositRequest;
+import com.cipek.grpc.model.proto.Balance;
+import com.cipek.grpc.model.proto.DepositRequest;
 import io.grpc.stub.StreamObserver;
 
 public class DepositStreamingRequest implements StreamObserver<DepositRequest> {

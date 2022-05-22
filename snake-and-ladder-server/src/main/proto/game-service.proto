@@ -1,0 +1,44 @@
+syntax = 'proto3';
+
+option java_multiple_files= true;
+option java_package = 'com.cipek.game.proto';
+
+message DiceRequest {
+
+}
+
+enum Player {
+  UNKNOWN = 0;
+  CLIENT = 1;
+  SERVER = 2;
+}
+
+message Movable {
+  MovableType type = 1;
+  int32 start = 2;
+  int32 destination = 3;
+}
+
+enum MovableType {
+  NOT_DEFINED = 0;
+  LADDER = 1;
+  SNAKE = 2;
+}
+
+message Board {
+  repeated Movable snakes = 1;
+  repeated Movable ladders = 2;
+}
+
+message GameResponse {
+  int32 rolledDice = 1;
+  int32 clientPosition = 2;
+  int32 serverPosition = 3;
+  Player currentTurn = 4;
+  Board gameBoard = 5;
+  string lastMove = 6;
+}
+
+service GameService {
+  rpc rollTheDice(stream DiceRequest) returns (stream GameResponse);
+}

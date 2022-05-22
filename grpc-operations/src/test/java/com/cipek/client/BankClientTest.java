@@ -2,7 +2,7 @@ package com.cipek.client;
 
 import com.cipek.model.BalanceStreamObserver;
 import com.cipek.model.MoneyStreamingResponse;
-import com.cipek.unary.model.proto.*;
+import com.cipek.grpc.model.proto.*;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.stub.StreamObserver;

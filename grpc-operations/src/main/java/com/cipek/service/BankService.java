@@ -2,7 +2,7 @@ package com.cipek.service;
 
 import com.cipek.model.DepositStreamingRequest;
 import com.cipek.repository.AccountRepository;
-import com.cipek.unary.model.proto.*;
+import com.cipek.grpc.model.proto.*;
 import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
 

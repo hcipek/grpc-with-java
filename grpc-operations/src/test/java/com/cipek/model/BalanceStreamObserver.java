@@ -1,6 +1,6 @@
 package com.cipek.model;
 
-import com.cipek.unary.model.proto.Balance;
+import com.cipek.grpc.model.proto.Balance;
 import io.grpc.stub.StreamObserver;
 
 import java.util.concurrent.CountDownLatch;

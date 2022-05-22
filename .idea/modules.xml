@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/unary-operations/grpc-operations.iml" filepath="$PROJECT_DIR$/unary-operations/grpc-operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/premature-grpc-microservices-with-java.iml" filepath="$PROJECT_DIR$/.idea/premature-grpc-microservices-with-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/protobuf/protobuf.iml" filepath="$PROJECT_DIR$/protobuf/protobuf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snake-and-ladder-server/snake-and-ladder-server.iml" filepath="$PROJECT_DIR$/snake-and-ladder-server/snake-and-ladder-server.iml" />
     </modules>
   </component>
 </project>

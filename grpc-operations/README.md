@@ -151,6 +151,34 @@ service ServiceName {
 
 #**Bi-Directional RPC**
 
-- 
+- Now both sides are streaming. Clients multiple requests, server responds with multiple responses.
+- This will be useful when client doesn't require any rollback case and want to see a response of every request that client sending.
+- Remember the previous example about War Game, this time we show user every arrow damage on screen.
+- Or you are sending your daily data to 3rd party server and sometimes this data could not be processed.(due to timeout, server error etc.) Well what about sending data in chunks and only receive errors about the ones that failed. So next time you will only need to send those failed data instead of all data of an exact day.
 
 **Service Definitions**
+
+- It's opposite of Unary calls and kind of combination of Server Stream and Client Stream.
+  
+  `rpc method(stream request) returns (stream response);`
+- All Maven, Method override and request object creation are similar to Client side Stream RPC calls.
+- But this time, when we finished with one request, we will immediately call `onNext()` method of response observer(in client-side we call it in `onCompleted` method).
+
+**About Testing the BiDirectional Stream RPC**
+
+- Similar to Server Side Stream tests, we need to handle the stream of responses that coming from server. 
+- We also need to send a stream of requests to server like Client Side Stream Tests.
+- And... That's it!
+
+**Comparison between Stream and Single Request/Responses**
+
+- Stream
+  - When our size is unknown but probably large.(Pagination)
+  - Receiving side might take too much time to process(File Upload)
+  - More efficient than multiple RPC calls.
+  - Independent calls between client/server
+- Single
+  - More efficient than streaming if data is small.
+
+
+

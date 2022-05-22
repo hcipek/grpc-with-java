@@ -1,6 +1,6 @@
 package com.cipek.model;
 
-import com.cipek.unary.model.proto.Money;
+import com.cipek.grpc.model.proto.Money;
 import io.grpc.stub.StreamObserver;
 
 import java.util.concurrent.CountDownLatch;

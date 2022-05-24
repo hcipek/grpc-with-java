@@ -1,3 +1,5 @@
 /node-client/node_modules/
 /grpc-operations/target/
 /protobuf/target/
+/snake-and-ladder-server/target/
+/load-balancing-grpc-with-nginx/target/

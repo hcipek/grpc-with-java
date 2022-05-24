@@ -1,4 +1,4 @@
-#**Snake & Ladders Game**
+# **Snake & Ladders Game**
 
 - This project is all about understanding and implementing BiDirectional Streams in RPC.
 - The tutorial I saw was doing it in different way, in their version;

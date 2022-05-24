@@ -4,14 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cipek</groupId>
-    <artifactId>premature-grpc-microservices-with-java</artifactId>
+    <artifactId>java-grpc-training-playground</artifactId>
     <version>1.0.0</version>
     <modules>
         <module>protobuf</module>
         <module>grpc-operations</module>
         <module>snake-and-ladder-server</module>
+        <module>load-balancing-grpc-with-nginx</module>
     </modules>
     <packaging>pom</packaging>
-    <name>premature-grpc-microservices-with-java</name>
+    <name>java-grpc-training-playground</name>
 
 </project>

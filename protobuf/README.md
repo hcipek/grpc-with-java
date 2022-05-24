@@ -168,11 +168,11 @@
 - 1 is smallest number for fields.
 - There is possible 2^29-1 numbers available.
 - 19000-19999 are reserved, you cannot use them.
-- Do not change field numbers after you shared the proto model with others.
+- Do not change field numbers after you shared the proto com.cipek.model with others.
 
 **Versioning**
 
-- When 2 services communicates each with proto file, they didn't know about field names, so they are only care about field numbers. Sometimes one service could change their proto file. They could change field name or add new fields.
+- When 2 services communicates each with proto file, they didn't know about field names, so they are only care about field numbers. Sometimes one com.cipek.service could change their proto file. They could change field name or add new fields.
 - When this happen, a developer should be careful about changes he/she made. For example if a field number assigned and after a while it becomes deprecated, developer should not be remove or comment this change. Instead of that, field number and field name should be reserved, so if another developer comes for another change, he/she can understand this number could have some other value and to avoid from any conflicts or wrong assignments, developer going to use another field number to use for new feature. So for situations like this, developer must use the following code lines.
   - reserved < fieldNumber>/< fieldNumber to fieldNumber>;
   - reserved < "fieldName">/< "fieldName", ...., "fieldName">;

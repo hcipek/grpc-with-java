@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/unary-operations/grpc-operations.iml" filepath="$PROJECT_DIR$/unary-operations/grpc-operations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/premature-grpc-microservices-with-java.iml" filepath="$PROJECT_DIR$/.idea/premature-grpc-microservices-with-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-grpc-training-playground.iml" filepath="$PROJECT_DIR$/.idea/java-grpc-training-playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/load-balancing-grpc-with-nginx/load-balancing-grpc-with-nginx.iml" filepath="$PROJECT_DIR$/load-balancing-grpc-with-nginx/load-balancing-grpc-with-nginx.iml" />
       <module fileurl="file://$PROJECT_DIR$/protobuf/protobuf.iml" filepath="$PROJECT_DIR$/protobuf/protobuf.iml" />
       <module fileurl="file://$PROJECT_DIR$/snake-and-ladder-server/snake-and-ladder-server.iml" filepath="$PROJECT_DIR$/snake-and-ladder-server/snake-and-ladder-server.iml" />
     </modules>

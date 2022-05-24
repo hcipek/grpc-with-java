@@ -8,19 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="protobuf" />
+        <module name="load-balancing-grpc-with-nginx" />
         <module name="snake-and-ladder-server" />
         <module name="grpc-operations" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="grpc-operations" target="1.8" />
+      <module name="java-grpc-training-playground" target="1.5" />
+      <module name="load-balancing-grpc-with-nginx" target="1.8" />
       <module name="micro1" target="18" />
       <module name="micro2" target="18" />
-      <module name="premature-grpc-microservices-with-java" target="1.5" />
       <module name="protobuf" target="18" />
-      <module name="server-stream-operations" target="1.8" />
+      <module name="server-stream-operations" target="18" />
       <module name="snake-and-ladder-server" target="18" />
-      <module name="snake-and-ladders-client" target="1.8" />
+      <module name="snake-and-ladders-client" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
